@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup>
+    <WatcherSettings>
+      <LogFileFullPath>D:\services\LogFile.txt</LogFileFullPath>
+      <SourceDirectory>C:\ClientData\data\</SourceDirectory>
+      <TargetDirectory>C:\ServerData\archive\</TargetDirectory>
+    </WatcherSettings>
+    <CompresiingSettings>2</CompresiingSettings>
+  </startup>
+</configuration>
