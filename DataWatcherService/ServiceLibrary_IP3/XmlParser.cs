@@ -35,7 +35,7 @@ namespace ServiceLibrary_IP3
                 foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputXml))
                 {
                     var groupsClassNameWithContent = matchClassNameWithContent.Groups;
-                    var classBuilder = new ClassBuilder(groupsClassNameWithContent["ClassName"].Value);
+                    var classBuilder = new Builder(groupsClassNameWithContent["ClassName"].Value);
                     var content = groupsClassNameWithContent["Content"].Value;
                     foreach (Match matchDetailedContent in regexDetailedContent.Matches(content))
                     {
@@ -48,7 +48,7 @@ namespace ServiceLibrary_IP3
                     etlXmlOptions.Add(classBuilder.CreateClass());
                 }
 
-                var classBuilder1 = new ClassBuilder(allConfName);
+                var classBuilder1 = new Builder(allConfName);
                 foreach (var e in etlXmlOptions)
                 {
                     classBuilder1.AddField(e.GetType(), e.Name, e);
