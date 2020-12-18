@@ -1,5 +1,5 @@
-﻿using System;
-using ServiceLibrary_IP3;
+﻿using ServiceLibrary_IP3;
+using System;
 using System.ServiceProcess;
 using System.Threading;
 
@@ -7,32 +7,43 @@ namespace DataWatcherService
 {
     public partial class Service1 : ServiceBase
     {
-        Logger logger;
+        readonly OptionsManager Manager;
+        readonly Options Options;
+        Watcher Watcher;
+        readonly Logger logger = new Logger();
         public Service1()
         {
             InitializeComponent();
-            this.CanStop = true;
-            this.CanPauseAndContinue = true;
-            this.AutoLog = true;
+            CanStop = true;
+            CanPauseAndContinue = true;
+            AutoLog = true;
+            Manager = new OptionsManager(true);
+            Options = Manager.GetOptions<Options>(Options);
         }
         internal void TestStartupAndStop(string[] args)
         {
-            this.OnStart(args);
+            OnStart(args);
             Console.ReadLine();
-            this.OnStop();
+            OnStop();
         }
         protected override void OnStart(string[] args)
         {
-            logger = new Logger();
-            Thread loggerThread = new Thread(new ThreadStart(logger.Start));
+            if (Options.IsLoggerEnable)
+                logger.RecordEntry("Service started...");
+            Watcher = new Watcher();
+            Thread loggerThread = new Thread(new ThreadStart(Watcher.Start));
             loggerThread.Start();
+            if(Options.IsLoggerEnable)
+            logger.RecordEntry("Service is ready");
         }
         protected override void OnStop()
         {
-            logger.Stop();
+            Watcher.Stop();
             Thread.Sleep(1000);
+            if (Options.IsLoggerEnable)
+                logger.RecordEntry("Service stopped.");
         }
     }
 
-    
+
 }

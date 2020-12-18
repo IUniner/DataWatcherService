@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWatcherService", "DataWatcherService\DataWatcherService.csproj", "{B243C7E7-C7FB-42C8-A323-1D43DAAE5374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary_IP3", "ServiceLibrary_IP3\ServiceLibrary_IP3.csproj", "{1062FAE5-E11F-40B3-ACFE-FC0DFAF6FBEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary_IP3", "CA_ServiceLibrary_IP3\ServiceLibrary_IP3.csproj", "{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B243C7E7-C7FB-42C8-A323-1D43DAAE5374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B243C7E7-C7FB-42C8-A323-1D43DAAE5374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B243C7E7-C7FB-42C8-A323-1D43DAAE5374}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1062FAE5-E11F-40B3-ACFE-FC0DFAF6FBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1062FAE5-E11F-40B3-ACFE-FC0DFAF6FBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1062FAE5-E11F-40B3-ACFE-FC0DFAF6FBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1062FAE5-E11F-40B3-ACFE-FC0DFAF6FBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

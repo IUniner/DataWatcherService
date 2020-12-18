@@ -36,6 +36,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
@@ -70,13 +73,14 @@
     <None Include="config.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServiceLibrary_IP3\ServiceLibrary_IP3.csproj">
-      <Project>{1062fae5-e11f-40b3-acfe-fc0dfaf6fbef}</Project>
+    <ProjectReference Include="..\CA_ServiceLibrary_IP3\ServiceLibrary_IP3.csproj">
+      <Project>{8ea6b868-2e12-448d-a7c1-1050a2e97dda}</Project>
       <Name>ServiceLibrary_IP3</Name>
     </ProjectReference>
   </ItemGroup>
