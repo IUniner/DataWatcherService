@@ -69,13 +69,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="appsettings.json" />
     <None Include="config.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServiceLibrary_IP3\ServiceLibrary_IP3.csproj">
+    <Content Include="config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CA_ServiceLibrary_IP3\ServiceLibrary_IP3.csproj">
       <Project>{8ea6b868-2e12-448d-a7c1-1050a2e97dda}</Project>
       <Name>ServiceLibrary_IP3</Name>
     </ProjectReference>
