@@ -28,32 +28,25 @@ namespace ServiceLibrary_IP3
             TargetDirectory = Options.TargetDirectory;
             IsLoggerEnable = Options.IsLoggerEnable;
             enabled = true;
+            logger = new Logger();
+            Cryptor = new Cryptor();
+            Archive = new Archive();
             watchers = new List<FileSystemWatcher>
                 {
                     new FileSystemWatcher(SourceDirectory),
                     new FileSystemWatcher(TargetDirectory)
                 };
-            /*
-            ArchiveOptions ArchiveSet = new ArchiveOptions() { IsCompressEnable = true, CompressionLevel = (System.IO.Compression.CompressionLevel)1, SourceDirectory = "C:\\ServerData\\archive\\", TargetDirectory = "C:\\ClientData\\data\\", IsLoggerEnable = true };
-            CryptingOptions CryptorSet = new CryptingOptions() { IsEncryptEnable = true, SourceDirectory = "C:\\ServerData\\archive\\", TargetDirectory = "C:\\ClientData\\data\\", IsLoggerEnable = true };
-            LoggerOptions LoggerSet = new LoggerOptions() { LogFile = "D:\\services\\LogFile.txt", SourceDirectory = "C:\\ServerData\\archive\\", TargetDirectory = "C:\\ClientData\\data\\", IsLoggerEnable = true };
-            WatcherOptions WatcherSet = new WatcherOptions() {  SourceDirectory = "C:\\ServerData\\archive\\", TargetDirectory = "C:\\ClientData\\data\\", IsLoggerEnable = true };
-            Options DefaultOptionsSet = new Options() { SourceDirectory = "C:\\ServerData\\archive\\", TargetDirectory = "C:\\ClientData\\data\\", IsLoggerEnable = true };
-            EtlJsonOptions EtlContent = new EtlJsonOptions(ArchiveSet, CryptorSet, LoggerSet, WatcherSet, DefaultOptionsSet);
-            string json = JsonConvert.SerializeObject(EtlContent);
-           //FileStream sr = new FileStream(File.WriteAllText() @"C:\Users\Asus\Desktop\Универ\3 Семестр. 2 Курс\asp.net.C#\LaboratoryProjects.С#\LP3\DataWatcherService\DataWatcherService\apptest.json")
-            File.WriteAllText(@"C:\Users\Asus\Desktop\Универ\3 Семестр. 2 Курс\asp.net.C#\LaboratoryProjects.С#\LP3\DataWatcherService\DataWatcherService\apptest.json",json);
-            */
+           
             watchers[0].Deleted += ChangeWatcher_Deleted;
             watchers[1].Deleted += ChangeWatcher_Deleted;
             watchers[0].Created += ChangeWatcher_Created;
             watchers[1].Created += ChangeWatcher_Created;
-            /*
-            watchers[0].Changed += ChangeWatcher_Changed;
-            watchers[1].Changed += ChangeWatcher_Changed;
+            
+            //watchers[0].Changed += ChangeWatcher_Changed;
+            //watchers[1].Changed += ChangeWatcher_Changed;
             watchers[0].Renamed += ChangeWatcher_Renamed;
             watchers[1].Renamed += ChangeWatcher_Renamed;
-            */
+            
         }
 
         public void Start()
@@ -82,12 +75,13 @@ namespace ServiceLibrary_IP3
             string filePath = e.FullPath;
             _ = filePath.Contains(SourceDirectory) ? 0 : 1;
             int i = filePath.Contains(TargetDirectory) ? 1 : 0;
+            FileHandler(e.FullPath);
             if (IsLoggerEnable)
             {
                 logger.RecordEntry(fileEvent, filePath, watcherName[i]);
             }
 
-            FileHandler(e.FullPath);
+            
         }
         private void ChangeWatcher_Changed(object sender, FileSystemEventArgs e)
         {
@@ -96,12 +90,13 @@ namespace ServiceLibrary_IP3
             string filePath = e.FullPath;
             _ = filePath.Contains(SourceDirectory) ? 0 : 1;
             int i = filePath.Contains(TargetDirectory) ? 1 : 0;
+            FileHandler(e.FullPath);
             if (IsLoggerEnable)
             {
                 logger.RecordEntry(fileEvent, filePath, watcherName[i]);
             }
 
-            FileHandler(e.FullPath);
+            
         }
         private void ChangeWatcher_Renamed(object sender, RenamedEventArgs e)
         {
@@ -110,12 +105,13 @@ namespace ServiceLibrary_IP3
             string filePath = e.OldFullPath;
             _ = filePath.Contains(SourceDirectory) ? 0 : 1;
             int i = filePath.Contains(TargetDirectory) ? 1 : 0;
+            FileHandler(e.FullPath);
             if (IsLoggerEnable)
             {
                 logger.RecordEntry(fileEvent, filePath, watcherName[i]);
             }
 
-            FileHandler(e.FullPath);
+            
         }
         private void ChangeWatcher_Deleted(object sender, FileSystemEventArgs e)
         {

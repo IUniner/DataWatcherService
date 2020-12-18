@@ -74,9 +74,9 @@
     <Compile Include="Archive.cs" />
     <Compile Include="Builder.cs" />
     <Compile Include="Cryptor.cs" />
-    <Compile Include="JsonParser.cs" />
+    <Compile Include="Parse\JsonParser.cs" />
     <Compile Include="Logger.cs" />
-    <Compile Include="OptionsManager.cs" />
+    <Compile Include="Parse\OptionsManager.cs" />
     <Compile Include="Options\ArchiveOptions.cs" />
     <Compile Include="Options\CryptingOptions.cs" />
     <Compile Include="Options\EtlJsonOptions.cs" />
@@ -87,7 +87,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Watcher.cs" />
-    <Compile Include="XmlParser.cs" />
+    <Compile Include="Parse\XmlParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="COnfigs\App.config" />

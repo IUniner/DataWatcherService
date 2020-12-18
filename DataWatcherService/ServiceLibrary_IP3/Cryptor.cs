@@ -53,7 +53,7 @@ namespace ServiceLibrary_IP3
             {
                 if (IsLoggerEnable)
                 {
-                    logger.RecordEntry("Encryption error:" + ex.Message);
+                    //logger.RecordEntry("Encryption error:" + ex.Message);
                 }
 
                 return fileToEncryption;
@@ -93,7 +93,7 @@ namespace ServiceLibrary_IP3
             {
                 if (IsLoggerEnable)
                 {
-                    logger.RecordEntry("Decryption error:" + ex.Message);
+                    //logger.RecordEntry("Decryption error:" + ex.Message);
                 }
 
                 return fileToDecryption;
