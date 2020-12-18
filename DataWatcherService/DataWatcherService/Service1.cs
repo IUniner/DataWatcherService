@@ -29,19 +29,27 @@ namespace DataWatcherService
         protected override void OnStart(string[] args)
         {
             if (Options.IsLoggerEnable)
+            {
                 logger.RecordEntry("Service started...");
+            }
+
             Watcher = new Watcher();
             Thread loggerThread = new Thread(new ThreadStart(Watcher.Start));
             loggerThread.Start();
-            if(Options.IsLoggerEnable)
-            logger.RecordEntry("Service is ready");
+            if (Options.IsLoggerEnable)
+            {
+                logger.RecordEntry("Service is ready");
+            }
         }
         protected override void OnStop()
         {
+            if (Options.IsLoggerEnable)
+            {
+                logger.RecordEntry("Service stopped.");
+            }
+
             Watcher.Stop();
             Thread.Sleep(1000);
-            if (Options.IsLoggerEnable)
-                logger.RecordEntry("Service stopped.");
         }
     }
 
