@@ -10,6 +10,7 @@ namespace ServiceLibrary_IP3
         private readonly Logger logger;
         public Archive()
         {
+            logger = new Logger();
             Manager = new OptionsManager(true);
             Options = Manager.GetOptions<ArchiveOptions>(Options);
         }
@@ -41,7 +42,7 @@ namespace ServiceLibrary_IP3
                 }
                 if (Options.IsLoggerEnable)
                 {
-                    logger.RecordEntry($"File {0} was compressed", fileToCompress.Name);
+                    //logger.RecordEntry($"File {fileToCompress.Name} was compressed");
                 }
 
                 return currentArchive;
@@ -50,7 +51,7 @@ namespace ServiceLibrary_IP3
             {
                 if (Options.IsLoggerEnable)
                 {
-                    logger.RecordEntry("Compress error:" + ex.Message);
+                    //logger.RecordEntry("Compress error:" + ex.Message);
                 }
 
                 return fileToCompress;
@@ -76,7 +77,7 @@ namespace ServiceLibrary_IP3
                     currentArchive = new FileInfo(fileToDecompress.FullName.Replace(".gz", ".txt"));
                     if (Options.IsLoggerEnable)
                     {
-                        logger.RecordEntry($"File {0} was decompressed", fileToDecompress.Name);
+                        //logger.RecordEntry($"File {0} was decompressed", fileToDecompress.Name);
                     }
 
                     fileToDecompress.Delete();
@@ -87,7 +88,7 @@ namespace ServiceLibrary_IP3
             {
                 if (Options.IsLoggerEnable)
                 {
-                    logger.RecordEntry("Decompress error:" + ex.Message);
+                    //logger.RecordEntry("Decompress error:" + ex.Message);
                 }
 
                 return fileToDecompress;

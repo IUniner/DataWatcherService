@@ -1,0 +1,245 @@
+
+Service started...
+Service is ready
+Service started...
+Service is ready
+Service started...
+Service is ready
+18.12.2020 07:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 07:57:45 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+Service started...
+Service is ready
+18.12.2020 07:58:46 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 07:58:46 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+18.12.2020 07:58:49 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 07:58:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 07:58:50 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 07:58:50 file D:\services\ServerData\archive\2020\11\17\Results_2020_11_17_15_00_00_AES.gz has been created by receiver
+18.12.2020 07:58:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 07:58:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 07:58:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+18.12.2020 07:58:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+Service started...
+Service is ready
+18.12.2020 08:06:59 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 08:07:01 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 08:07:01 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:07:01 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 08:07:01 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:07:01 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+Service started...
+Service is ready
+Service started...
+Service is ready
+18.12.2020 08:14:25 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:14:25 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:14:27 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 08:14:27 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 08:14:28 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:14:28 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service is ready
+18.12.2020 08:21:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:21:55 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:21:58 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:21:58 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service is ready
+Service started...
+Service is ready
+18.12.2020 08:24:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:24:50 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service started...
+Service started...
+Service is ready
+Service started...
+Service is ready
+18.12.2020 08:36:05 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 08:36:05 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:36:06 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:36:06 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:37:27 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:37:27 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service started...
+Service is ready
+18.12.2020 08:42:39 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 08:42:39 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:42:41 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:42:41 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service is ready
+18.12.2020 08:45:15 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:45:47 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:47:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been deleted by sender
+18.12.2020 08:47:49 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:49:03 file Results_2020_11_17_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:51:37 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00.txt has been created by sender
+18.12.2020 08:51:54 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:52:10 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been created by sender
+18.12.2020 08:52:25 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:52:57 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:53:19 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been created by sender
+18.12.2020 08:53:34 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:53:48 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:53:58 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.txt has been deleted by sender
+Service started...
+Service is ready
+Service started...
+Service is ready
+18.12.2020 08:57:26 file D:\services\ClientData\data\2020\11\15\Results_2020_11_17_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:57:31 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:57:40 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 08:57:40 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:57:42 file Results_2020_11_15_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:57:42 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service is ready
+18.12.2020 08:58:20 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 08:58:20 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:58:21 file Results_2020_11_15_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+18.12.2020 08:58:21 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+Service started...
+Service is ready
+18.12.2020 08:59:26 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by receiver
+18.12.2020 08:59:26 file D:\services\ServerData\archive\2020\11\15 has been changed by receiver
+18.12.2020 08:59:26 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by receiver
+18.12.2020 08:59:26 file D:\services\ServerData\archive\2020\11\15 has been changed by receiver
+18.12.2020 08:59:29 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 08:59:29 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:59:31 file Results_2020_11_15_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been changed by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 08:59:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+Service started...
+Service is ready
+18.12.2020 09:01:53 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 09:01:53 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:01:55 file Results_2020_11_15_15_00_00_AES.txt has been File 0 was compressed by default
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been changed by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:01:55 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+Service started...
+Service is ready
+18.12.2020 09:05:26 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by receiver
+18.12.2020 09:05:26 file D:\services\ServerData\archive\2020\11\15 has been changed by receiver
+18.12.2020 09:05:26 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by receiver
+18.12.2020 09:05:26 file D:\services\ServerData\archive\2020\11\15 has been changed by receiver
+18.12.2020 09:05:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 09:05:31 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+File Results_2020_11_15_15_00_00_AES.txt was compressed
+18.12.2020 09:05:33 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:05:33 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:05:33 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:05:33 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:05:33 file Results_2020_11_15_15_00_00_AES.gz has been File 0 was decompressed by default
+Service started...
+Service is ready
+Service started...
+Service started...
+Service started...
+Service is ready
+18.12.2020 09:12:48 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 09:12:52 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+File Results_2020_11_15_15_00_00_AES.txt was compressed
+18.12.2020 09:13:09 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:13:12 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:13:16 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:13:20 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:13:23 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+Service started...
+Service is ready
+18.12.2020 09:32:45 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 09:32:47 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+File Results_2020_11_15_15_00_00_AES.txt was compressed
+18.12.2020 09:33:31 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:33:32 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:50:34 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:50:35 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been changed by sender
+18.12.2020 09:50:38 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 09:50:39 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been changed by sender
+18.12.2020 09:51:24 file D:\services\ClientData\data\2020\11\15 has been changed by sender
+18.12.2020 09:51:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 09:51:53 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+Service started...
+Service is ready
+18.12.2020 09:53:29 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+File Results_2020_11_15_15_00_00_AES.txt was compressed
+18.12.2020 09:53:48 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:53:50 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:53:51 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 09:53:53 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 09:53:56 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+Service started...
+Service is ready
+18.12.2020 09:56:29 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by sender
+18.12.2020 09:56:41 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by sender
+18.12.2020 09:56:42 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by sender
+18.12.2020 09:56:43 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by sender
+18.12.2020 09:56:43 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by sender
+18.12.2020 09:56:43 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been created by receiver
+18.12.2020 09:56:44 file D:\services\ClientData\data\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by sender
+18.12.2020 09:56:44 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been created by receiver
+18.12.2020 09:56:45 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.gz has been deleted by receiver
+18.12.2020 09:56:45 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00.txt has been created by receiver
+18.12.2020 09:56:45 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00_AES.txt has been deleted by receiver
+18.12.2020 09:57:07 file D:\services\ServerData\archive\2020\11\15\Results_2020_11_15_15_00_00.txt has been deleted by receiver

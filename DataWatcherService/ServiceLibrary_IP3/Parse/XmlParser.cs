@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Xml;
-using System.Xml.Serialization;
 
 namespace ServiceLibrary_IP3
 {
     public class XmlParser
     {
         private readonly Dictionary<string, string> xmlDictionary;
-        static EtlXmlOptions Options;
-
         public XmlParser()
         {
             xmlDictionary = new Dictionary<string, string>();

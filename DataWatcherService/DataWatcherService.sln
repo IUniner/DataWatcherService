@@ -5,7 +5,14 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataWatcherService", "DataWatcherService\DataWatcherService.csproj", "{B243C7E7-C7FB-42C8-A323-1D43DAAE5374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary_IP3", "CA_ServiceLibrary_IP3\ServiceLibrary_IP3.csproj", "{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{2C403A58-AE21-4866-9450-43F674DF9FEE}"
+	ProjectSection(SolutionItems) = preProject
+		services\appsettings.json = services\appsettings.json
+		services\config.xml = services\config.xml
+		D:\services\LogFile.txt = D:\services\LogFile.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLibrary_IP3", "ServiceLibrary_IP3\ServiceLibrary_IP3.csproj", "{8EA6B868-2E12-448D-A7C1-1050A2E97DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

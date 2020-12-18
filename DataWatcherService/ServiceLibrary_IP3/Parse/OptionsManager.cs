@@ -1,52 +1,61 @@
 ﻿using System;
-using System.IO;
-using System.Text.Json;
 
 namespace ServiceLibrary_IP3
 {
     public class OptionsManager
     {
-        readonly string JsonPath = @"C:\Users\Asus\Desktop\Универ\3 Семестр. 2 Курс\asp.net.C#\LaboratoryProjects.С#\LP3\DataWatcherService\DataWatcherService\appsettings.json";
-        readonly string XmlPath = @"C:\Users\Asus\Desktop\Универ\3 Семестр. 2 Курс\asp.net.C#\LaboratoryProjects.С#\LP3\DataWatcherService\DataWatcherService\config.xml";
-        readonly bool IsJson = false;
+
+        readonly string JsonPath = @"D:\services\appsettings.json";
+        readonly string XmlPath = @"D:\services\config.xml";
+        readonly bool IsJson = true;
         private readonly EtlJsonOptions EtlJsonOptions;
         private readonly EtlXmlOptions EtlXmlOptions;
         private readonly JsonParser JsonReader;
         private readonly XmlParser XmlReader;
 
         public OptionsManager(bool isJson = true)
-        {            
-            //IsJson = isJson;
-            this.JsonReader = new JsonParser();
-            this.JsonReader.Parse(JsonPath);
-            ArchiveOptions ArchiveSet = new ArchiveOptions() {
+        {
+            IsJson = isJson;
+            JsonReader = new JsonParser();
+            JsonReader.Parse(JsonPath);
+            ArchiveOptions ArchiveSet = new ArchiveOptions()
+            {
                 IsCompressEnable = string.Format(JsonReader.GetJsonElement("IsCompressEnable")).Contains("true"),
                 CompressionLevel = (System.IO.Compression.CompressionLevel)Int32.Parse(JsonReader.GetJsonElement("CompressionLevel")),
                 SourceDirectory = JsonReader.GetJsonElement("SourceDirectory"),
                 TargetDirectory = JsonReader.GetJsonElement("TargetDirectory"),
-                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))};
-            CryptingOptions CryptorSet = new CryptingOptions() { 
+                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))
+            };
+            CryptingOptions CryptorSet = new CryptingOptions()
+            {
                 IsEncryptEnable = bool.Parse(JsonReader.GetJsonElement("IsEncryptEnable")),
                 SourceDirectory = JsonReader.GetJsonElement("SourceDirectory"),
                 TargetDirectory = JsonReader.GetJsonElement("TargetDirectory"),
-                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))};
-            LoggerOptions LoggerSet = new LoggerOptions() { 
+                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))
+            };
+            LoggerOptions LoggerSet = new LoggerOptions()
+            {
                 LogFile = JsonReader.GetJsonElement("LogFile"),
                 SourceDirectory = JsonReader.GetJsonElement("SourceDirectory"),
                 TargetDirectory = JsonReader.GetJsonElement("TargetDirectory"),
-                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))};
-            WatcherOptions WatcherSet = new WatcherOptions() {
+                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))
+            };
+            WatcherOptions WatcherSet = new WatcherOptions()
+            {
                 SourceDirectory = JsonReader.GetJsonElement("SourceDirectory"),
                 TargetDirectory = JsonReader.GetJsonElement("TargetDirectory"),
-                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))};
-            Options DefaultOptionsSet = new Options() {
+                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))
+            };
+            Options DefaultOptionsSet = new Options()
+            {
                 SourceDirectory = JsonReader.GetJsonElement("SourceDirectory"),
                 TargetDirectory = JsonReader.GetJsonElement("TargetDirectory"),
-                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))};
-            this.EtlJsonOptions = new EtlJsonOptions(ArchiveSet, CryptorSet, LoggerSet, WatcherSet, DefaultOptionsSet);
+                IsLoggerEnable = bool.Parse(JsonReader.GetJsonElement("IsLoggerEnable"))
+            };
+            EtlJsonOptions = new EtlJsonOptions(ArchiveSet, CryptorSet, LoggerSet, WatcherSet, DefaultOptionsSet);
 
-            this.XmlReader = new XmlParser();
-            this.XmlReader.Parse(XmlPath);
+            XmlReader = new XmlParser();
+            XmlReader.Parse(XmlPath);
             ArchiveOptions ArchiveSetXml = new ArchiveOptions()
             {
                 IsCompressEnable = string.Format(XmlReader.GetXmlElement("IsCompressEnable")).Contains("true"),
@@ -81,7 +90,7 @@ namespace ServiceLibrary_IP3
                 TargetDirectory = XmlReader.GetXmlElement("TargetDirectory"),
                 IsLoggerEnable = bool.Parse(XmlReader.GetXmlElement("IsLoggerEnable"))
             };
-            this.EtlXmlOptions = new EtlXmlOptions(ArchiveSetXml, CryptorSetXml, LoggerSetXml, WatcherSetXml, DefaultOptionsSetXml);
+            EtlXmlOptions = new EtlXmlOptions(ArchiveSetXml, CryptorSetXml, LoggerSetXml, WatcherSetXml, DefaultOptionsSetXml);
         }
         public ArchiveOptions GetOptions<Type>(ArchiveOptions o)
         {
